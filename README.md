@@ -49,18 +49,18 @@ VAT 7%:     1,610.00 บาท
 ### ติดตั้ง Skill
 
 ```bash
-npx skills add SigmaF001/create-claude-quotation-skill -g -y
+npx skills add SigmaF001/claude-quotation-skill -g -y
 ```
 
 หรือติดตั้งแบบ manual:
 
 ```bash
 # สร้างโฟลเดอร์
-mkdir -p ~/.claude/skills/create-claude-quotation-skill
+mkdir -p ~/.claude/skills/claude-quotation-skill
 
 # copy SKILL.md
-curl -o ~/.claude/skills/create-claude-quotation-skill/SKILL.md \
-  https://raw.githubusercontent.com/SigmaF001/create-claude-quotation-skill/main/SKILL.md
+curl -o ~/.claude/skills/claude-quotation-skill/SKILL.md \
+  https://raw.githubusercontent.com/SigmaF001/claude-quotation-skill/main/SKILL.md
 ```
 
 ### ติดตั้ง Python Packages
