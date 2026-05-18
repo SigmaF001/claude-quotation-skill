@@ -49,7 +49,7 @@ VAT 7%:     1,610.00 บาท
 ### ติดตั้ง Skill
 
 ```bash
-npx skills add nutchapol/create-quotation -g -y
+npx skills add SigmaF001/create-quotation -g -y
 ```
 
 หรือติดตั้งแบบ manual:
@@ -60,7 +60,7 @@ mkdir -p ~/.claude/skills/create-quotation
 
 # copy SKILL.md
 curl -o ~/.claude/skills/create-quotation/SKILL.md \
-  https://raw.githubusercontent.com/nutchapol/create-quotation/main/SKILL.md
+  https://raw.githubusercontent.com/SigmaF001/create-quotation/main/SKILL.md
 ```
 
 ### ติดตั้ง Python Packages
